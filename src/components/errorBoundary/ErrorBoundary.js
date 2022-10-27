@@ -1,3 +1,24 @@
+// import { useState, useEffect } from "react";
+
+// import ErrorMessage from "../errorMessage/ErrorMessage";
+
+// const ErrorBoundery = (props) => {
+//   const [error, setError] = useState(false);
+
+//  useEffect( (error, errorInfo) => {
+//     console.log(error, errorInfo);
+//     setError({ error: true });
+//   }, []);
+
+//   if (error) {
+//     return <ErrorMessage />;
+//   }
+
+//   return props.children;
+// };
+
+// export default ErrorBoundery;
+
 import { Component } from "react";
 
 import ErrorMessage from "../errorMessage/ErrorMessage";
